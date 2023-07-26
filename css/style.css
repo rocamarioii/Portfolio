@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+#body_content {
+	max-width: 100%;
+}
+
+.pic {
+	float: left;
+}
+
+.pic img {
+	height: 200px;
+	width: 200px;
+}
+
+.tabs {
+	border: none;
+	display: flex;
+}
+
+.tabs_sidebar {
+	width: 150px;
+	flex-shrink: 0;
+	background: #f8c8dc;
+}
+
+#wcont {
+	background: #f8c8dc;
+}
+
+.button_tabs {
+	display: block;
+	padding: 10px;
+	background: #d3d3d3;
+	border: none;
+	width: 100%;
+	outline: none;
+	cursor: pointer;
+}
+
+.button_tabs:active {
+	background: #dddddd;
+}
+
+.button_tabs:not(:last-of-type) {
+	border-bottom: 1px solid #ffffff;
+}
+
+.button_tabs-active {
+	font-weight: bold;
+	border-right: 4px solid #0000FF;
+	background: #aec6cf;
+}
+
+.tab_content {
+	padding: 15px;
+	font-size: 0.8rem;
+	display: none;
+	border: 1px solid #ffffff;
+}
+
+.tab_content p {
+	text-align: justify;
+}
+
+.tab_content-active {
+	display: block;
+}
+
+.tab_content > :first-child {
+	margin-top: 0;
+}
+
+#cont{
+	align-content: center;
+	margin-left: 10%;
+}
+
+#aws img{
+	height: 180px;
+	width: 250px;
+}
